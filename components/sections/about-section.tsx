@@ -30,7 +30,7 @@ export function AboutSection() {
               <span className="text-sm font-medium text-primary uppercase tracking-wider">WE ARE</span>
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">
-              We are Summit Analytics
+              We are Capital Gainer 
             </h2>
             <p className="text-accent font-medium">
               Registered Research Analyst
@@ -39,7 +39,7 @@ export function AboutSection() {
               Guiding Your Investments with Precision Research
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Summit Analytics is a registered research analyst firm providing clear, data-driven trading and 
+              Capital Gainer is a registered research analyst firm providing clear, data-driven trading and 
               investment recommendations. We focus on quality, efficiency, and smart innovation to help 
               clients make informed decisions, with timely insights, disciplined risk management, and responsive support.
             </p>
