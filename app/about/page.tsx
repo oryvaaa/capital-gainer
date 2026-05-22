@@ -7,7 +7,7 @@ import { ArrowRight, Target, Eye, Award, Users, TrendingUp, Shield, CheckCircle 
 
 const stats = [
   { value: "15+", label: "Years Experience" },
-  { value: "10K+", label: "Active Clients" },
+  { value: "10K+", label: "Clients Served" },
   { value: "98%", label: "Client Satisfaction" },
   { value: "24/7", label: "Support Available" }
 ]
@@ -37,28 +37,16 @@ const values = [
 
 const team = [
   {
-    name: "Robert Mitchell",
+    name: "Sanjay Mishra",
     role: "Chief Research Officer",
     bio: "20+ years in equity research and portfolio management.",
     initials: "RM"
   },
   {
-    name: "Jennifer Adams",
-    role: "Head of Derivatives",
-    bio: "Former institutional trader with expertise in options strategies.",
-    initials: "JA"
-  },
-  {
-    name: "Michael Chen",
+    name: "Harshit Goyal",
     role: "Senior Technical Analyst",
     bio: "Specialist in advanced charting and market structure analysis.",
     initials: "MC"
-  },
-  {
-    name: "Sarah Williams",
-    role: "Client Relations Director",
-    bio: "Dedicated to ensuring exceptional client experience and support.",
-    initials: "SW"
   }
 ]
 
@@ -81,7 +69,7 @@ export default function AboutPage() {
                   Your Trusted Partner in Market Research
                 </h1>
                 <p className="text-lg text-primary-foreground/80 leading-relaxed">
-                  Summit Analytics is a registered research analyst firm dedicated to providing 
+                  Capital Gainer is a registered research analyst firm dedicated to providing 
                   clear, data-driven trading and investment recommendations for discerning investors.
                 </p>
               </div>
@@ -225,7 +213,7 @@ export default function AboutPage() {
                     Regulatory Compliance
                   </h2>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    Summit Analytics operates as a registered Research Analyst in full compliance 
+                    Capital Gainer operates as a registered Research Analyst in full compliance 
                     with regulatory requirements. We maintain the highest standards of professional 
                     conduct and transparent communication.
                   </p>
@@ -250,7 +238,7 @@ export default function AboutPage() {
                 </div>
                 <div className="text-center lg:text-right">
                   <p className="text-sm text-muted-foreground mb-2">Registration Number</p>
-                  <p className="text-2xl font-bold text-primary mb-6">INH000XXXXXX</p>
+                  <p className="text-2xl font-bold text-primary mb-6">NISM-202400101361</p>
                   <Button asChild variant="outline">
                     <Link href="/disclaimer">
                       View Full Disclaimer
@@ -270,7 +258,7 @@ export default function AboutPage() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
-              Join thousands of investors who trust Summit Analytics for their research needs.
+              Join thousands of investors who trust Capital Gainer for their research needs.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">
