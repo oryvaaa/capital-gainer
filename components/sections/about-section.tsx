@@ -18,7 +18,7 @@ export function AboutSection() {
                 </div>
               </div>
               <div className="mt-8 pt-8 border-t border-primary-foreground/20">
-                <p className="text-lg font-medium">Summit Analytics</p>
+                <p className="text-lg font-medium">Capital Gainer/p>
                 <p className="text-primary-foreground/70 text-sm mt-1">Trusted Research Partner</p>
               </div>
             </div>
