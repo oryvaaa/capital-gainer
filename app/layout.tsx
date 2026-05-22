@@ -14,9 +14,9 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Summit Analytics | Expert Market Research & Trading Insights',
-  description: 'Summit Analytics delivers professional market research and data-driven trading insights for investors. SEBI registered research analyst providing equity, options, futures, and commodity analysis.',
-  keywords: ['market research', 'trading insights', 'stock market', 'investment analysis', 'SEBI registered'],
+  title: 'Capital Gainer | Expert Market Research & Trading Insights',
+  description: 'Capital Gainer delivers professional market research and data-driven trading insights for investors. NISM-Registered research analyst providing equity, options, futures, and commodity analysis.',
+  keywords: ['market research', 'trading insights', 'stock market', 'investment analysis', 'NISM registered'],
 }
 
 export default function RootLayout({

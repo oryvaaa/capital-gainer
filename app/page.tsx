@@ -1,5 +1,5 @@
 import { Navbar } from "@/components/navbar"
-import { DisclaimerBanner } from "@/components/disclaimer-banner"
+
 import { Footer } from "@/components/footer"
 import { HeroSection } from "@/components/sections/hero-section"
 import { AboutSection } from "@/components/sections/about-section"
@@ -16,7 +16,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <DisclaimerBanner />
       <main>
         <HeroSection />
         <AboutSection />

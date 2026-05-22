@@ -81,7 +81,7 @@ export default function AboutPage() {
                   Your Trusted Partner in Market Research
                 </h1>
                 <p className="text-lg text-primary-foreground/80 leading-relaxed">
-                  Summit Analytics is a registered research analyst firm dedicated to providing 
+                  Capital Gainer is a NISM-Registered research analyst firm dedicated to providing 
                   clear, data-driven trading and investment recommendations for discerning investors.
                 </p>
               </div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
                   Building Trust Through Excellence
                 </h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Founded over 15 years ago, Summit Analytics began with a simple mission: to provide 
+                  Founded over 15 years ago, Capital Gainer began with a simple mission: to provide 
                   individual investors with the same quality of research and analysis that was previously 
                   available only to institutional clients.
                 </p>
@@ -225,14 +225,14 @@ export default function AboutPage() {
                     Regulatory Compliance
                   </h2>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    Summit Analytics operates as a registered Research Analyst in full compliance 
+                    Capital Gainer operates as a NISM-Registered Research Analyst in full compliance 
                     with regulatory requirements. We maintain the highest standards of professional 
                     conduct and transparent communication.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-center gap-3">
                       <CheckCircle className="w-5 h-5 text-accent" />
-                      <span className="text-muted-foreground">Registered Research Analyst</span>
+                      <span className="text-muted-foreground">NISM-Registered Research Analyst</span>
                     </li>
                     <li className="flex items-center gap-3">
                       <CheckCircle className="w-5 h-5 text-accent" />
@@ -250,7 +250,7 @@ export default function AboutPage() {
                 </div>
                 <div className="text-center lg:text-right">
                   <p className="text-sm text-muted-foreground mb-2">Registration Number</p>
-                  <p className="text-2xl font-bold text-primary mb-6">INH000XXXXXX</p>
+                  <p className="text-2xl font-bold text-primary mb-6">NISM-202400101361</p>
                   <Button asChild variant="outline">
                     <Link href="/disclaimer">
                       View Full Disclaimer
@@ -270,7 +270,7 @@ export default function AboutPage() {
               Ready to Start Your Journey?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8">
-              Join thousands of investors who trust Summit Analytics for their research needs.
+              Join thousands of investors who trust Capital Gainer for their research needs.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground">

@@ -22,9 +22,9 @@ export function DisclaimerBanner() {
             style={{ display: 'inline-block' }}
           >
             <span className="text-sm text-foreground/80">
-              Investing and trading in securities markets involves risk. Summit Analytics (Research Analyst) does not guarantee returns or provide profit-sharing services. Always use proper risk management and stop-loss orders. We never request your trading account details. Report suspicious activity to our official support line.
+              Investing and trading in securities markets involves risk. Capital Gainer (Research Analyst) does not guarantee returns or provide profit-sharing services. Always use proper risk management and stop-loss orders. We never request your trading account details. Report suspicious activity to our official support line.
               {" "}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{" "}
-              Investing and trading in securities markets involves risk. Summit Analytics (Research Analyst) does not guarantee returns or provide profit-sharing services. Always use proper risk management and stop-loss orders. We never request your trading account details. Report suspicious activity to our official support line.
+              Investing and trading in securities markets involves risk. Capital Gainer (Research Analyst) does not guarantee returns or provide profit-sharing services. Always use proper risk management and stop-loss orders. We never request your trading account details. Report suspicious activity to our official support line.
             </span>
           </div>
         </div>
@@ -38,7 +38,7 @@ export function DisclaimerBanner() {
             {isPaused ? <Play className="w-4 h-4" /> : <Pause className="w-4 h-4" />}
           </button>
           <a 
-            href="tel:+1-555-123-4567" 
+            href="tel:+91 7280980028" 
             className="hidden sm:block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium hover:bg-primary/90"
           >
             Call Support

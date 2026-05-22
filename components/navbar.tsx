@@ -24,13 +24,13 @@ export function Navbar() {
           <div className="flex items-center gap-4">
             <span className="hidden sm:inline">SPEAK TO US</span>
             <span className="hidden sm:inline">|</span>
-            <a href="tel:+1-555-123-4567" className="flex items-center gap-1 hover:underline">
+            <a href="tel:+91 7280980028" className="flex items-center gap-1 hover:underline">
               <Phone className="w-3 h-3" />
-              +1-555-123-4567
+              +91 7280980028
             </a>
             <span className="hidden md:flex items-center gap-1 text-primary-foreground/80">
               <Clock className="w-3 h-3" />
-              Opens at 9am EST
+              Opens at 9am IST
             </span>
           </div>
           <div className="flex items-center gap-3 text-xs sm:text-sm">
@@ -48,10 +48,10 @@ export function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">S</span>
+                <span className="text-primary-foreground font-bold text-xl">C</span>
               </div>
               <span className="text-xl md:text-2xl font-bold text-foreground">
-                Summit Analytics
+                Capital Gainer
               </span>
             </Link>
 

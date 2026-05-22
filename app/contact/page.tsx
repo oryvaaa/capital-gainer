@@ -10,28 +10,28 @@ const contactMethods = [
     icon: Phone,
     title: "Phone",
     description: "Speak directly with our team",
-    value: "+1-555-123-4567",
-    href: "tel:+1-555-123-4567"
+    value: "+91 7280980028",
+    href: "tel:+91 7280980028"
   },
   {
     icon: Mail,
     title: "Email",
     description: "Send us a detailed inquiry",
-    value: "contact@summitanalytics.com",
-    href: "mailto:contact@summitanalytics.com"
+    value: "contact@capitalgainer.shop",
+    href: "mailto:contact@capitalgainer.shop"
   },
   {
     icon: MapPin,
     title: "Office",
     description: "Visit us in person",
-    value: "123 Financial District, New York, NY 10004",
+    value: "3 Amartya Bhawan, Hauzkhas, Delhi, IN, 110017",
     href: "#"
   },
   {
     icon: Clock,
     title: "Business Hours",
     description: "When we are available",
-    value: "Mon - Fri: 9:00 AM - 6:00 PM EST",
+    value: "Mon - Fri: 9:00 AM - 6:00 PM IST",
     href: "#"
   }
 ]
@@ -247,7 +247,7 @@ export default function ContactPage() {
           <div className="text-center">
             <MapPin className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
             <p className="text-muted-foreground">Interactive Map Placeholder</p>
-            <p className="text-sm text-muted-foreground/70">123 Financial District, New York, NY 10004</p>
+            <p className="text-sm text-muted-foreground/70">3 Amartya Bhawan, Hauzkhas, Delhi, IN, 110017</p>
           </div>
         </section>
       </main>
