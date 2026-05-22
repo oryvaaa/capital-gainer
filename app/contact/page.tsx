@@ -10,8 +10,8 @@ const contactMethods = [
     icon: Phone,
     title: "Phone",
     description: "Speak directly with our team",
-    value: "+91 700",
-    href: "tel:+1-555-123-4567"
+    value: "+91 7280980028",
+    href: "tel:+91 7280980028"
   },
   {
     icon: Mail,
