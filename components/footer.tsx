@@ -34,9 +34,9 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">S</span>
+                <span className="text-primary-foreground font-bold text-xl">C</span>
               </div>
-              <span className="text-xl font-bold">Summit Analytics</span>
+              <span className="text-xl font-bold">Capital Gainer</span>
             </div>
             <p className="text-background/70 text-sm leading-relaxed">
               We employ a team of expert research analysts delivering data-driven insights through advanced technical analysis and proprietary indicators for informed trading decisions.
@@ -92,26 +92,26 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                 <span className="text-background/70 text-sm">
-                  123 Financial District<br />
-                  New York, NY 10004
+                  3 Amartya Bhawan, Hauzkhas,<br />
+                  Delhi, IN, 110017
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
-                <a href="tel:+1-555-123-4567" className="text-background/70 hover:text-primary text-sm">
-                  +1-555-123-4567
+                <a href="tel:+91-7280980028" className="text-background/70 hover:text-primary text-sm">
+                  +91 7280980028
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <a href="mailto:contact@summitanalytics.com" className="text-background/70 hover:text-primary text-sm">
-                  contact@summitanalytics.com
+                <a href="mailto:contact@capitalgainer.shop" className="text-background/70 hover:text-primary text-sm">
+                  contact@capitalgainer.shop
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Clock className="w-5 h-5 text-primary shrink-0" />
                 <span className="text-background/70 text-sm">
-                  Mon - Fri: 9:00 AM - 6:00 PM EST
+                  Mon - Fri: 9:00 AM - 6:00 PM IST
                 </span>
               </li>
             </ul>
@@ -127,7 +127,7 @@ export function Footer() {
             <p className="text-xs text-background/60 leading-relaxed">
               Investment in securities market are subject to market risks. Read all related documents carefully before investing. 
               Registration granted by regulatory authorities does not guarantee performance or returns. Past performance is not indicative of future results.
-              Summit Analytics is a registered research analyst. Registration No: INH000XXXXXX
+              Capital Gainer is a NISM-Registered research analyst. Registration No: NISM-202400101361
             </p>
           </div>
         </div>
@@ -138,7 +138,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-background/60">
-              © {new Date().getFullYear()} Summit Analytics. All rights reserved.
+              © {new Date().getFullYear()} Capital Gainer. All rights reserved.
             </p>
             <div className="flex flex-wrap items-center gap-6">
               {legal.map((link) => (
