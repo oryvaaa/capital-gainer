@@ -1,5 +1,4 @@
 import { Navbar } from "@/components/navbar"
-import { DisclaimerBanner } from "@/components/disclaimer-banner"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -9,7 +8,7 @@ const plans = [
   {
     name: "Equity Basic",
     description: "Perfect for beginners starting their investment journey",
-    price: "199",
+    price: "4,999",
     period: "month",
     features: [
       "5-7 equity cash recommendations per month",
@@ -25,7 +24,7 @@ const plans = [
   {
     name: "Options Pro",
     description: "For active traders seeking derivatives expertise",
-    price: "399",
+    price: "9,999",
     period: "month",
     features: [
       "10-15 options recommendations per month",
@@ -42,7 +41,7 @@ const plans = [
   {
     name: "Index & Futures",
     description: "Comprehensive coverage of derivatives markets",
-    price: "499",
+    price: "14,999",
     period: "month",
     features: [
       "Index and stock futures calls",
@@ -99,7 +98,6 @@ export default function PricingPage() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <DisclaimerBanner />
       
       <main>
         {/* Hero Section */}
@@ -148,7 +146,7 @@ export default function PricingPage() {
                       <p className="text-3xl font-bold text-primary">Custom</p>
                     ) : (
                       <>
-                        <span className="text-4xl font-bold text-foreground">${plan.price}</span>
+                        <span className="text-4xl font-bold text-foreground">₹{plan.price}</span>
                         <span className="text-muted-foreground">/{plan.period}</span>
                       </>
                     )}
