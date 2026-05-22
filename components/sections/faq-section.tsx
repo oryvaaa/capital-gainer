@@ -5,12 +5,12 @@ import { ChevronDown, ChevronUp } from "lucide-react"
 
 const faqs = [
   {
-    question: "Is Summit Analytics a registered research analyst?",
+    question: "Is Capital Gainer a registered research analyst?",
     answer: "Yes. We operate as a registered Research Analyst. Please refer to our Investor Charter and Disclaimer pages for complete regulatory details and compliance information."
   },
   {
     question: "How can I contact support?",
-    answer: "You can reach us via email at contact@summitanalytics.com or call our support line shown in the header and footer. Our team is available during market hours and responds to inquiries promptly."
+    answer: "You can reach us via email at contact@capitalgainer.shop or call our support line shown in the header and footer. Our team is available during market hours and responds to inquiries promptly."
   },
   {
     question: "What services do you offer?",
