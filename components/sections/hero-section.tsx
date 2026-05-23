@@ -85,7 +85,7 @@ export function HeroSection() {
                   type="tel"
                   required
                   className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+91 9999999999"
                 />
               </div>
               <div>
@@ -113,10 +113,10 @@ export function HeroSection() {
                   className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition"
                 >
                   <option value="">Select Trading Capital</option>
-                  <option value="below-50k">Below $50,000</option>
-                  <option value="50k-100k">$50,000 - $100,000</option>
-                  <option value="100k-500k">$100,000 - $500,000</option>
-                  <option value="above-500k">Above $500,000</option>
+                  <option value="below-50k">Below ₹50,000</option>
+                  <option value="50k-100k">₹50,000 - ₹100,000</option>
+                  <option value="100k-500k">₹100,000 - ₹500,000</option>
+                  <option value="above-500k">Above ₹500,000</option>
                 </select>
               </div>
               <div className="flex items-start gap-2">
