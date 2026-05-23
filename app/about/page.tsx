@@ -1,5 +1,4 @@
 import { Navbar } from "@/components/navbar"
-import { DisclaimerBanner } from "@/components/disclaimer-banner"
 import { Footer } from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -54,7 +53,6 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <DisclaimerBanner />
       
       <main>
         {/* Hero Section */}
